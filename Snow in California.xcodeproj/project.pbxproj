@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C1F5DF2B27D35B004D214E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 09C1F5DE2B27D35B004D214E /* RealityKitContent */; };
+		09C1F5E12B27D35B004D214E /* Snow_in_CaliforniaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C1F5E02B27D35B004D214E /* Snow_in_CaliforniaApp.swift */; };
+		09C1F5E32B27D35B004D214E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C1F5E22B27D35B004D214E /* ContentView.swift */; };
+		09C1F5E52B27D35B004D214E /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C1F5E42B27D35B004D214E /* ImmersiveView.swift */; };
+		09C1F5E72B27D35E004D214E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C1F5E62B27D35E004D214E /* Assets.xcassets */; };
+		09C1F5EA2B27D35E004D214E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C1F5E92B27D35E004D214E /* Preview Assets.xcassets */; };
+		09C1F5F52B27D35F004D214E /* Snow_in_CaliforniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C1F5F42B27D35F004D214E /* Snow_in_CaliforniaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C1F5F12B27D35F004D214E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C1F5D12B27D35B004D214E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C1F5D82B27D35B004D214E;
+			remoteInfo = "Snow in California";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C1F5D92B27D35B004D214E /* Snow in California.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snow in California.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C1F5DD2B27D35B004D214E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		09C1F5E02B27D35B004D214E /* Snow_in_CaliforniaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snow_in_CaliforniaApp.swift; sourceTree = "<group>"; };
+		09C1F5E22B27D35B004D214E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09C1F5E42B27D35B004D214E /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		09C1F5E62B27D35E004D214E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C1F5E92B27D35E004D214E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09C1F5EB2B27D35E004D214E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C1F5F02B27D35F004D214E /* Snow in CaliforniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snow in CaliforniaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C1F5F42B27D35F004D214E /* Snow_in_CaliforniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snow_in_CaliforniaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C1F5D62B27D35B004D214E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1F5DF2B27D35B004D214E /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C1F5ED2B27D35F004D214E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C1F5D02B27D35B004D214E = {
+			isa = PBXGroup;
+			children = (
+				09C1F5DB2B27D35B004D214E /* Snow in California */,
+				09C1F5DC2B27D35B004D214E /* Packages */,
+				09C1F5F32B27D35F004D214E /* Snow in CaliforniaTests */,
+				09C1F5DA2B27D35B004D214E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C1F5DA2B27D35B004D214E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C1F5D92B27D35B004D214E /* Snow in California.app */,
+				09C1F5F02B27D35F004D214E /* Snow in CaliforniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C1F5DB2B27D35B004D214E /* Snow in California */ = {
+			isa = PBXGroup;
+			children = (
+				09C1F5E02B27D35B004D214E /* Snow_in_CaliforniaApp.swift */,
+				09C1F5E22B27D35B004D214E /* ContentView.swift */,
+				09C1F5E42B27D35B004D214E /* ImmersiveView.swift */,
+				09C1F5E62B27D35E004D214E /* Assets.xcassets */,
+				09C1F5EB2B27D35E004D214E /* Info.plist */,
+				09C1F5E82B27D35E004D214E /* Preview Content */,
+			);
+			path = "Snow in California";
+			sourceTree = "<group>";
+		};
+		09C1F5DC2B27D35B004D214E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				09C1F5DD2B27D35B004D214E /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		09C1F5E82B27D35E004D214E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09C1F5E92B27D35E004D214E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09C1F5F32B27D35F004D214E /* Snow in CaliforniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				09C1F5F42B27D35F004D214E /* Snow_in_CaliforniaTests.swift */,
+			);
+			path = "Snow in CaliforniaTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C1F5D82B27D35B004D214E /* Snow in California */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C1F5F82B27D35F004D214E /* Build configuration list for PBXNativeTarget "Snow in California" */;
+			buildPhases = (
+				09C1F5D52B27D35B004D214E /* Sources */,
+				09C1F5D62B27D35B004D214E /* Frameworks */,
+				09C1F5D72B27D35B004D214E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snow in California";
+			packageProductDependencies = (
+				09C1F5DE2B27D35B004D214E /* RealityKitContent */,
+			);
+			productName = "Snow in California";
+			productReference = 09C1F5D92B27D35B004D214E /* Snow in California.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09C1F5EF2B27D35F004D214E /* Snow in CaliforniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C1F5FB2B27D35F004D214E /* Build configuration list for PBXNativeTarget "Snow in CaliforniaTests" */;
+			buildPhases = (
+				09C1F5EC2B27D35F004D214E /* Sources */,
+				09C1F5ED2B27D35F004D214E /* Frameworks */,
+				09C1F5EE2B27D35F004D214E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C1F5F22B27D35F004D214E /* PBXTargetDependency */,
+			);
+			name = "Snow in CaliforniaTests";
+			productName = "Snow in CaliforniaTests";
+			productReference = 09C1F5F02B27D35F004D214E /* Snow in CaliforniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C1F5D12B27D35B004D214E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					09C1F5D82B27D35B004D214E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					09C1F5EF2B27D35F004D214E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 09C1F5D82B27D35B004D214E;
+					};
+				};
+			};
+			buildConfigurationList = 09C1F5D42B27D35B004D214E /* Build configuration list for PBXProject "Snow in California" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C1F5D02B27D35B004D214E;
+			productRefGroup = 09C1F5DA2B27D35B004D214E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C1F5D82B27D35B004D214E /* Snow in California */,
+				09C1F5EF2B27D35F004D214E /* Snow in CaliforniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C1F5D72B27D35B004D214E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1F5EA2B27D35E004D214E /* Preview Assets.xcassets in Resources */,
+				09C1F5E72B27D35E004D214E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C1F5EE2B27D35F004D214E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C1F5D52B27D35B004D214E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1F5E32B27D35B004D214E /* ContentView.swift in Sources */,
+				09C1F5E12B27D35B004D214E /* Snow_in_CaliforniaApp.swift in Sources */,
+				09C1F5E52B27D35B004D214E /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C1F5EC2B27D35F004D214E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C1F5F52B27D35F004D214E /* Snow_in_CaliforniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09C1F5F22B27D35F004D214E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C1F5D82B27D35B004D214E /* Snow in California */;
+			targetProxy = 09C1F5F12B27D35F004D214E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C1F5F62B27D35F004D214E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		09C1F5F72B27D35F004D214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		09C1F5F92B27D35F004D214E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snow in California/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdInfinitum.Snow-in-California";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		09C1F5FA2B27D35F004D214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snow in California/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdInfinitum.Snow-in-California";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		09C1F5FC2B27D35F004D214E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdInfinitum.Snow-in-CaliforniaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snow in California.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snow in California";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		09C1F5FD2B27D35F004D214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdInfinitum.Snow-in-CaliforniaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snow in California.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snow in California";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C1F5D42B27D35B004D214E /* Build configuration list for PBXProject "Snow in California" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C1F5F62B27D35F004D214E /* Debug */,
+				09C1F5F72B27D35F004D214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C1F5F82B27D35F004D214E /* Build configuration list for PBXNativeTarget "Snow in California" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C1F5F92B27D35F004D214E /* Debug */,
+				09C1F5FA2B27D35F004D214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C1F5FB2B27D35F004D214E /* Build configuration list for PBXNativeTarget "Snow in CaliforniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C1F5FC2B27D35F004D214E /* Debug */,
+				09C1F5FD2B27D35F004D214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09C1F5DE2B27D35B004D214E /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 09C1F5D12B27D35B004D214E /* Project object */;
+}
